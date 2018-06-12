@@ -4,7 +4,7 @@
   <title><![CDATA[终有悔悟]]></title>
   <link href="https://zyhw.github.io/atom.xml" rel="self"/>
   <link href="https://zyhw.github.io/"/>
-  <updated>2017-05-21T19:50:56+08:00</updated>
+  <updated>2018-06-12T21:59:34+08:00</updated>
   <id>https://zyhw.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://www.coderforart.com/">CoderForArt</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[2018 年 06 月 12 日 发现这个博客打算拾起来]]></title>
+    <link href="https://zyhw.github.io/20180612.html"/>
+    <updated>2018-06-12T21:45:13+08:00</updated>
+    <id>https://zyhw.github.io/20180612.html</id>
+    <content type="html"><![CDATA[
+<ol>
+<li><p>PT（Private Tracker）下载其实是原理类似BT下载的一种，但有两个明显的改进：一是私密的小范围下载，二是进行流量统计，其根据下载量决定你的权限。</p></li>
+<li><p>几个大站：m-team（馒头）、hdsky、TTG（听听歌）、CMCT（春天）、hdchina、hdroute</p></li>
+<li><p>我堡：OurBits（<a href="https://ourbits.club">https://ourbits.club</a> ）是一个综合性资源分享网站，成立于2016年11月，现有官方压制PbK小组、iLoveHD小组、OurPad小组、DIY小组、Remux小组、OurTV小组、录制iLoveTV小组、音乐HosT小组、驻站小组FFans小组等，资源主要涵盖影视、动漫、纪录片、综艺及无损音乐等资源，旨在打造一流高清影视分享、交流平台，本站支持IPV4与ipv6地址互联，教育网用户与公网用户皆有可观的速度，欢迎所有热爱高清影视的朋友前来分享与交流！</p></li>
+<li><p>小站：hdhome.org（家园）、gztown.net（港知堂）等</p></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Safari无法安装第三方插件]]></title>
