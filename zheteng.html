@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<title>  
 	  
-  	生活剪影 - 终有悔悟
+  	折腾记录 - 终有悔悟
   	
 	</title>
 
@@ -153,55 +153,44 @@ soundManager.setup({
 	<article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
 		<div class="meta">
 			<div class="date">
-				<time datetime="2018-06-12T21:45:13+08:00" itemprop="datePublished">2018/6/12</time>
+				<time datetime="2018-06-13T20:50:40+08:00" itemprop="datePublished">2018/6/13</time>
 			</div>
 			<div class="tags">posted in 
 			
-			    <a class='category' href='lifevideo.html'>生活剪影</a>&nbsp;
+			    <a class='category' href='zheteng.html'>折腾记录</a>&nbsp;
 			 
 			</div>
 		</div>
-		<h1 class="title" itemprop="name"><a href="20180612.html" itemprop="url">
-		2018 年 06 月 12 日 发现这个博客打算拾起来</a></h1>
+		<h1 class="title" itemprop="name"><a href="xiaomiminishuaji.html" itemprop="url">
+		小米路由器mini 刷潘多拉固件教程</a></h1>
 		<div class="entry-content" itemprop="articleBody">
 			
 			
 
-			<ol>
-<li><p>PT（Private Tracker）下载其实是原理类似BT下载的一种，但有两个明显的改进：一是私密的小范围下载，二是进行流量统计，其根据下载量决定你的权限。</p></li>
-<li><p>几个大站：m-team（馒头）、hdsky、TTG（听听歌）、CMCT（春天）、hdchina、hdroute</p></li>
-<li><p>我堡：OurBits（<a href="https://ourbits.club">https://ourbits.club</a> ）是一个综合性资源分享网站，成立于2016年11月，现有官方压制PbK小组、iLoveHD小组、OurPad小组、DIY小组、Remux小组、OurTV小组、录制iLoveTV小组、音乐HosT小组、驻站小组FFans小组等，资源主要涵盖影视、动漫、纪录片、综艺及无损音乐等资源，旨在打造一流高清影视分享、交流平台，本站支持IPV4与ipv6地址互联，教育网用户与公网用户皆有可观的速度，欢迎所有热爱高清影视的朋友前来分享与交流！</p></li>
-<li><p>小站：hdhome.org（家园）、gztown.net（港知堂）等。</p></li>
-</ol>
+			<p>小米路由器mini想安装各种各样的插件，实现远程下载，免广告，SS，多拨各种各样的功能。但是自带的路由器固件不支持这些功能，只能自己动手刷个其他固件。具体刷机教程如下，楼主已经成功刷入固件，具体步骤见下。</p>
 
+<p>参考刷机教程：<a href="http://www.miui.com/thread-6835406-1-1.html">http://www.miui.com/thread-6835406-1-1.html</a></p>
 
-			
-			
-		</div>
+<p>一、升级到小米路由器mini版本的开发版本。</p>
 
-	</article>
- 
-	<article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-		<div class="meta">
-			<div class="date">
-				<time datetime="2017-05-21T12:40:40+08:00" itemprop="datePublished">2017/5/21</time>
-			</div>
-			<div class="tags">posted in 
-			
-			    <a class='category' href='lifevideo.html'>生活剪影</a>&nbsp;
-			 
-			</div>
-		</div>
-		<h1 class="title" itemprop="name"><a href="zyhw01.html" itemprop="url">
-		Mweb第一篇</a></h1>
-		<div class="entry-content" itemprop="articleBody">
-			
-			
+<p>二、开通路由器的SSH功能。<br/>
+   获取SSH权限，在<a href="https://d.miwifi.com/rom/ssh%E5%A4%84%E7%99%BB%E5%BD%95%E5%B0%8F%E7%B1%B3%E8%B4%A6%E5%8F%B7%E7%BB%91%E5%AE%9A%E8%B7%AF%E7%94%B1%E5%99%A8%EF%BC%8C%E8%8E%B7%E5%BE%97root%E5%AF%86%E7%A0%81%E3%80%82%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7%E5%8C%85%EF%BC%8C%E5%BE%97%E5%88%B0">https://d.miwifi.com/rom/ssh处登录小米账号绑定路由器，获得root密码。下载工具包，得到</a> miwifi_ssh.bin ，复制到U盘（如果之前U盘里复制了 miwifi.bin ，务必删除）。路由器断电，将U盘插入，并用针压住复位孔，路由器上电，待指示灯变为黄色闪烁状态后松开复位，等待路由器安装和重启。之后可以使用PuTTY登录路由器，主机名称为 miwifi.com ，端口号为 22 ，用户名为 root ，密码为网站下载工具包处显示的密码。</p>
 
-			<blockquote>
-<p>一万年太久，只争朝夕。<br/>
----毛泽东</p>
-</blockquote>
+<p>三、刷不死固件Breed，下载小米路由mini对应版本（<a href="http://www.right.com.cn/forum/thread-161906-1-1.html%EF%BC%89">http://www.right.com.cn/forum/thread-161906-1-1.html）</a></p>
+
+<p>刷Breed操作教程：<a href="https://jingyan.baidu.com/article/8275fc866b451046a03cf633.html">https://jingyan.baidu.com/article/8275fc866b451046a03cf633.html</a></p>
+
+<p>四，刷好Breed后，进入Breed的Web 刷机模式网页，再刷潘多拉等其他固件。<br/>
+    潘多拉的r1024，r1696版本，目前普遍认为是带多拨最稳定的！r1696版本可以说是一个神版本，可以说是潘多拉的顶峰！但是现在基本上找不到资源，潘多拉官网根本找不到r1696的版本，玩潘多拉系统的朋友们肯定知道这两个版本吧，同时我也会带稳定性十分不错的老毛子Padavan固件。下面会提供连接，刷机的时候选择最新的breed和需要的固件就行。</p>
+
+<p>r1696版本：<a href="https://download.csdn.net/download/qing666888/10374548">https://download.csdn.net/download/qing666888/10374548</a></p>
+
+<p>PandoraBox官网固件：<a href="http://downloads.openwrt.org.cn/PandoraBox/Xiaomi-Mini-R1CM/">http://downloads.openwrt.org.cn/PandoraBox/Xiaomi-Mini-R1CM/</a></p>
+
+<p>Padavan固件：<a href="http://www.right.com.cn/forum/thread-161324-1-1.html%EF%BC%88%E6%8E%A8%E8%8D%90%EF%BC%89">http://www.right.com.cn/forum/thread-161324-1-1.html（推荐）</a></p>
+
+<p><img src="media/15288942408450/20180427013750629.png" alt="20180427013750629"/><br/>
+<img src="media/15288942408450/20180425222049895.png" alt="20180425222049895"/></p>
 
 
 			
