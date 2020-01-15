@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on zyhw&#39;blog</title>
+    <link>https://zyhw.github.io/tags/hugo/</link>
+    <description>Recent content in Hugo on zyhw&#39;blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 15 Jan 2020 22:43:52 +0800</lastBuildDate>
+    
+	<atom:link href="https://zyhw.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>博客又一次捡起来了</title>
+      <link>https://zyhw.github.io/post/003/</link>
+      <pubDate>Wed, 15 Jan 2020 22:43:52 +0800</pubDate>
+      
+      <guid>https://zyhw.github.io/post/003/</guid>
+      <description>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。 把原来采用的静态博客生成应用由hexo更换成了hugo了。</description>
+    </item>
+    
+  </channel>
+</rss>

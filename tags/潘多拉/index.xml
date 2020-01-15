@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>潘多拉 on zyhw&#39;blog</title>
+    <link>https://zyhw.github.io/tags/%E6%BD%98%E5%A4%9A%E6%8B%89/</link>
+    <description>Recent content in 潘多拉 on zyhw&#39;blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 13 Jun 2017 11:41:52 +0800</lastBuildDate>
+    
+	<atom:link href="https://zyhw.github.io/tags/%E6%BD%98%E5%A4%9A%E6%8B%89/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>小米路由器 mini 刷潘多拉固件教程</title>
+      <link>https://zyhw.github.io/post/002/</link>
+      <pubDate>Tue, 13 Jun 2017 11:41:52 +0800</pubDate>
+      
+      <guid>https://zyhw.github.io/post/002/</guid>
+      <description>小米路由器 mini 想安装各种各样的插件，实现远程下载，免广告，SS，多拨各种各样的功能。但是自带的路由器固件不支持这些功能，只能自己动手刷个其他固</description>
+    </item>
+    
+  </channel>
+</rss>

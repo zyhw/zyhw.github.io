@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>小米路由器 mini 刷潘多拉固件教程 - zyhw&#39;blog</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="zyhw" /><meta name="description" content="小米路由器 mini 想安装各种各样的插件，实现远程下载，免广告，SS，多拨各种各样的功能。但是自带的路由器固件不支持这些功能，只能自己动手刷个其他固" /><meta name="keywords" content="Macos, 黑苹果, win10" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.62.1 with theme even" />
+
+
+<link rel="canonical" href="https://zyhw.github.io/post/002/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="小米路由器 mini 刷潘多拉固件教程" />
+<meta property="og:description" content="小米路由器 mini 想安装各种各样的插件，实现远程下载，免广告，SS，多拨各种各样的功能。但是自带的路由器固件不支持这些功能，只能自己动手刷个其他固" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://zyhw.github.io/post/002/" />
+<meta property="article:published_time" content="2017-06-13T11:41:52+08:00" />
+<meta property="article:modified_time" content="2020-01-15T22:31:37+08:00" />
+<meta itemprop="name" content="小米路由器 mini 刷潘多拉固件教程">
+<meta itemprop="description" content="小米路由器 mini 想安装各种各样的插件，实现远程下载，免广告，SS，多拨各种各样的功能。但是自带的路由器固件不支持这些功能，只能自己动手刷个其他固">
+<meta itemprop="datePublished" content="2017-06-13T11:41:52&#43;08:00" />
+<meta itemprop="dateModified" content="2020-01-15T22:31:37&#43;08:00" />
+<meta itemprop="wordCount" content="779">
+
+
+
+<meta itemprop="keywords" content="小米路由器,潘多拉,PandorBox," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="小米路由器 mini 刷潘多拉固件教程"/>
+<meta name="twitter:description" content="小米路由器 mini 想安装各种各样的插件，实现远程下载，免广告，SS，多拨各种各样的功能。但是自带的路由器固件不支持这些功能，只能自己动手刷个其他固"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Zyhw</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">首页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">归档</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Zyhw</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">首页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">归档</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">小米路由器 mini 刷潘多拉固件教程</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2017-06-13 </span>
+        <div class="post-category">
+            <a href="/categories/%E6%8A%98%E8%85%BE/"> 折腾 </a>
+            </div>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#-mini-">升级到小米路由器 mini 版本的开发版本。</a></li>
+    <li><a href="#-ssh-">开通路由器的 SSH 功能。</a></li>
+    <li><a href="#-breed-mini-">刷不死固件 Breed，下载小米路由 mini 对应版本</a></li>
+    <li><a href="#breedbreedweb-">刷好Breed后，进入Breed的Web 刷机模式网页，再刷潘多拉等其他固件。</a></li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <p>小米路由器 mini 想安装各种各样的插件，实现远程下载，免广告，SS，多拨各种各样的功能。但是自带的路由器固件不支持这些功能，只能自己动手刷个其他固件。具体刷机教程如下，楼主已经成功刷入固件，具体步骤见下。</p>
+<p>参考刷机教程： <a href="http://www.miui.com/thread-6835406-1-1.html">http://www.miui.com/thread-6835406-1-1.html</a></p>
+<h2 id="-mini-">升级到小米路由器 mini 版本的开发版本。</h2>
+<h2 id="-ssh-">开通路由器的 SSH 功能。</h2>
+<p>获取 SSH 权限，在 <a href="https://d.miwifi.com/rom/ssh">https://d.miwifi.com/rom/ssh</a> 处登录小米账号绑定路由器，获得root密码。下载工具包，得到 miwifi_ssh.bin ，复制到 U 盘（如``果之前 U 盘里复制了 miwifi.bin ，务必删除）。路由器断电，将U盘插入，并用针压住复位孔，路由器上电，待指示灯变为黄色闪烁状态后松开复位，等待路由器安装和重启。之后可以使用PuTTY登录路由器，主机名称为 miwifi.com ，端口号为 22 ，用户名为 root ，密码为网站下载工具包处显示的密码。</p>
+<h2 id="-breed-mini-">刷不死固件 Breed，下载小米路由 mini 对应版本</h2>
+<p><a href="http://www.right.com.cn/forum/thread-161906-1-1.html">http://www.right.com.cn/forum/thread-161906-1-1.html</a></p>
+<p>刷 Breed 操作教程：https://jingyan.baidu.com/article/8275fc866b451046a03cf633.html</p>
+<h2 id="breedbreedweb-">刷好Breed后，进入Breed的Web 刷机模式网页，再刷潘多拉等其他固件。</h2>
+<p>潘多拉的 r1024，r1696 版本，目前普遍认为是带多拨最稳定的！r1696 版本可以说是一个神版本，可以说是潘多拉的顶峰！但是现在基本上找不到资源，潘多拉官网根本找不到 r1696 的版本，玩潘多拉系统的朋友们肯定知道这两个版本吧，同时我也会带稳定性十分不错的老毛子 Padavan 固件。下面会提供连接，刷机的时候选择最新的 breed 和需要的固件就行。</p>
+<p>r1696 版本：https://download.csdn.net/download/qing666888/10374548</p>
+<p>PandoraBox 官网固件：http://downloads.openwrt.org.cn/PandoraBox/Xiaomi-Mini-R1CM/</p>
+<p>Padavan 固件：http://www.right.com.cn/forum/thread-161324-1-1.html</p>
+<p><img src="https://zyhw.github.io/media/15288942408450/20180427013750629.png" alt=""></p>
+<p><img src="https://zyhw.github.io/media/15288942408450/20180425222049895.png" alt=""></p>
+
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">zyhw</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2020-01-15
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/%E5%B0%8F%E7%B1%B3%E8%B7%AF%E7%94%B1%E5%99%A8/">小米路由器</a>
+          <a href="/tags/%E6%BD%98%E5%A4%9A%E6%8B%89/">潘多拉</a>
+          <a href="/tags/pandorbox/">PandorBox</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/003/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">博客又一次捡起来了</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        <a class="next" href="/post/001/">
+            <span class="next-text nav-default">Safari无法安装第三方插件</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+  <a href="https://zyhw.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2019 - 
+    2020
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">zyhw</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

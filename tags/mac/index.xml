@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MAC on zyhw&#39;blog</title>
+    <link>https://zyhw.github.io/tags/mac/</link>
+    <description>Recent content in MAC on zyhw&#39;blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 21 May 2017 14:38:52 +0800</lastBuildDate>
+    
+	<atom:link href="https://zyhw.github.io/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Safari无法安装第三方插件</title>
+      <link>https://zyhw.github.io/post/001/</link>
+      <pubDate>Sun, 21 May 2017 14:38:52 +0800</pubDate>
+      
+      <guid>https://zyhw.github.io/post/001/</guid>
+      <description>重启电脑进 安全模式 （启动时按住 Shift）。安装插件，再重启回正常模式 鼠标点击“信任”没用，要用键盘点击“信任”。 系统设置 &amp;gt; 键盘 &amp;gt; 快捷键 &amp;gt; Full</description>
+    </item>
+    
+  </channel>
+</rss>
