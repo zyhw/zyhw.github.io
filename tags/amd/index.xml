@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>MAC on zyhw&#39;blog</title>
-    <link>https://zyhw.github.io/tags/mac/</link>
-    <description>Recent content in MAC on zyhw&#39;blog</description>
+    <title>AMD on zyhw&#39;blog</title>
+    <link>https://zyhw.github.io/tags/amd/</link>
+    <description>Recent content in AMD on zyhw&#39;blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 16 Jan 2020 21:05:56 +0800</lastBuildDate>
     
-	<atom:link href="https://zyhw.github.io/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zyhw.github.io/tags/amd/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,12 +21,16 @@
     </item>
     
     <item>
-      <title>Safari无法安装第三方插件</title>
-      <link>https://zyhw.github.io/post/001/</link>
-      <pubDate>Sun, 21 May 2017 14:38:52 +0800</pubDate>
+      <title>AMD 黑苹果平台 Adobe 软件崩溃闪退修复</title>
+      <link>https://zyhw.github.io/post/004/</link>
+      <pubDate>Thu, 16 Jan 2020 21:03:28 +0800</pubDate>
       
-      <guid>https://zyhw.github.io/post/001/</guid>
-      <description>重启电脑进 安全模式 （启动时按住 Shift）。安装插件，再重启回正常模式 鼠标点击“信任”没用，要用键盘点击“信任”。 系统设置 &amp;gt; 键盘 &amp;gt; 快捷键 &amp;gt; Full</description>
+      <guid>https://zyhw.github.io/post/004/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;用法：打开终端，根据软件及版本输入相应命令&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;ps&#34;&gt;ps：&lt;/h1&gt;
+&lt;h2 id=&#34;ps2018&#34;&gt;PS2018&lt;/h2&gt;</description>
     </item>
     
   </channel>

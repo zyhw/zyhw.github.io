@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>黑苹果 on zyhw&#39;blog</title>
+    <link>https://zyhw.github.io/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/</link>
+    <description>Recent content in 黑苹果 on zyhw&#39;blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 16 Jan 2020 21:05:56 +0800</lastBuildDate>
+    
+	<atom:link href="https://zyhw.github.io/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AMD 黑苹果关于本机中处理器 CPU 显示错误更改</title>
+      <link>https://zyhw.github.io/post/005/</link>
+      <pubDate>Thu, 16 Jan 2020 21:05:56 +0800</pubDate>
+      
+      <guid>https://zyhw.github.io/post/005/</guid>
+      <description>如果您的cpu只显示频率（四叶草clover情况） 使用CloverConfigur（有中文版）挂载分区，打开EFI/CLOVER目录下的co</description>
+    </item>
+    
+    <item>
+      <title>AMD 黑苹果平台 Adobe 软件崩溃闪退修复</title>
+      <link>https://zyhw.github.io/post/004/</link>
+      <pubDate>Thu, 16 Jan 2020 21:03:28 +0800</pubDate>
+      
+      <guid>https://zyhw.github.io/post/004/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;用法：打开终端，根据软件及版本输入相应命令&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;ps&#34;&gt;ps：&lt;/h1&gt;
+&lt;h2 id=&#34;ps2018&#34;&gt;PS2018&lt;/h2&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
