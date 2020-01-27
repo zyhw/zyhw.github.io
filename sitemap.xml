@@ -2,6 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zyhw.github.io/categories/</loc>
+    <lastmod>2020-01-27T14:52:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zyhw.github.io/post/</loc>
+    <lastmod>2020-01-27T14:52:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zyhw.github.io/tags/</loc>
+    <lastmod>2020-01-27T14:52:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zyhw.github.io/</loc>
+    <lastmod>2020-01-27T14:52:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zyhw.github.io/tags/%E5%B1%B1%E4%B8%9C/</loc>
+    <lastmod>2020-01-27T14:52:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zyhw.github.io/post/006/</loc>
+    <lastmod>2020-01-27T14:52:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zyhw.github.io/tags/%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8A%B6%E7%97%85%E6%AF%92/</loc>
+    <lastmod>2020-01-27T14:52:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zyhw.github.io/tags/%E8%82%BA%E7%82%8E/</loc>
+    <lastmod>2020-01-27T14:52:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zyhw.github.io/categories/%E8%AE%B0%E5%BD%95/</loc>
+    <lastmod>2020-01-27T14:52:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://zyhw.github.io/tags/amd/</loc>
     <lastmod>2020-01-16T21:05:56+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -16,13 +79,6 @@
   </url>
   
   <url>
-    <loc>https://zyhw.github.io/categories/</loc>
-    <lastmod>2020-01-16T21:05:56+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://zyhw.github.io/tags/mac/</loc>
     <lastmod>2020-01-16T21:05:56+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -30,21 +86,7 @@
   </url>
   
   <url>
-    <loc>https://zyhw.github.io/post/</loc>
-    <lastmod>2020-01-16T21:05:56+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://zyhw.github.io/tags/</loc>
-    <lastmod>2020-01-16T21:05:56+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://zyhw.github.io/</loc>
+    <loc>https://zyhw.github.io/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/</loc>
     <lastmod>2020-01-16T21:05:56+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -52,13 +94,6 @@
   
   <url>
     <loc>https://zyhw.github.io/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/</loc>
-    <lastmod>2020-01-16T21:05:56+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://zyhw.github.io/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/</loc>
     <lastmod>2020-01-16T21:05:56+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
